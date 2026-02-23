@@ -9,7 +9,7 @@ const [menuOpen,setMenuOpen] = useState(false)
     
   return (
     <div className='w-full hover:shadow-[0_1px_3px_0_rgba(0,0,0,0.1)] cursor-pointer transition-shadow duration-100 '>
-        <div className='container max-w-6xl mx-auto flex items-center justify-between py-4 '>
+        <div className='container max-w-6xl mx-auto flex items-center justify-between px-4 md:px-0 py-4 '>
             {/* logo */}
             <h1 className='text-xl hover:text-red-800'>Leema<span className="text-red-800 hover:text-black">George</span></h1>
             {/* nav links */}

@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 const About = () => {
     const[activeTab,setActiveTab] = useState("skills")
   return (
-    <div className="container max-w-6xl mx-auto mt-20 px-4">
+    <div className="container max-w-6xl mx-auto mt-20 px-8">
       <h1 className="uppercase text-4xl text-center font-bold">
         About <span className="text-red-800">Me</span>
       </h1>
 
-      <motion.div className="flex flex-col md:flex-row mt-10 px-8"
+      <motion.div className="flex flex-col md:flex-row mt-10 "
       initial={{opacity:0,scale:0.5}}
         whileInView={{opacity:1,scale:1}}
         viewport={{once:false}}

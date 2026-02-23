@@ -32,11 +32,11 @@ const Projects = () => {
   ];
 
   return (
-    <div className="container max-w-6xl mx-auto mt-20 px-4">
+    <div className="container max-w-6xl mx-auto mt-20 px-8">
       <h2 className="uppercase text-4xl text-center font-bold">
         Recent <span className="text-red-800">works</span>
       </h2>
-      <div className="flex flex-col md:flex-row mt-10 px-8 ">
+      <div className="flex flex-col md:flex-row mt-10 ">
         <div className="flex flex-col flex-wrap space-y-10 "
         >
           {projects.map((project) => (

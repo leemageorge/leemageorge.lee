@@ -12,7 +12,7 @@ const caveat = Caveat({
 });
 const Contact = () => {
   return (
-    <div className="px-20 py-16  bg-[#f4ece6] container max-w-6xl mx-auto rounded-lg mt-80">
+    <div className="px-12 py-16  bg-[#f4ece6] container max-w-6xl mx-auto rounded-lg mt-80">
     <div className=" flex flex-col md:flex-row gap-10 h-[80vh] relative">
         {/* left side */}
       <motion.div className="w-full md:w-1/2 relative flex items-center justify-center"
