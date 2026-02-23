@@ -12,8 +12,8 @@ const caveat = Caveat({
 });
 const Contact = () => {
   return (
-    <div className="px-12 pt-20   bg-[#f4ece6] container max-w-6xl mx-auto rounded-lg mt-80">
-    <div className=" flex flex-col md:flex-row gap-10 h-[75vh] md:h-[70vh] relative">
+    <div className="px-12 pt-20   bg-[#f4ece6] container max-w-6xl mx-auto rounded-lg mt-80 ">
+    <div className=" flex flex-col md:flex-row gap-10 h-[75vh] md:h-[70vh] relative ">
         {/* left side */}
       <motion.div className="w-full md:w-1/2 relative flex items-center justify-center"
       initial={{opacity:0,scale:0.5}}

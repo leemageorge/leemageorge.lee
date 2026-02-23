@@ -32,7 +32,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="container max-w-6xl mx-auto mt-20 px-8">
+    <div className="container max-w-6xl mx-auto mt-20 px-8 ">
       <h2 className="uppercase text-4xl text-center font-bold">
         Recent <span className="text-red-800">works</span>
       </h2>

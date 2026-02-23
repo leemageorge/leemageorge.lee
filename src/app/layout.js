@@ -3,6 +3,7 @@ import { Nunito_Sans,Caveat} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FloatingWhatsapp from "@/components/FloatingWhatsapp";
 
 const nunito_sans = Nunito_Sans({
   variable: "--font-nunito-sans",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
+        <FloatingWhatsapp />
       </body>
     </html>
   );

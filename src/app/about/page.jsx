@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const About = () => {
     const[activeTab,setActiveTab] = useState("skills")
   return (
-    <div className="container max-w-6xl mx-auto mt-20 px-8">
+    <div className="container max-w-6xl mx-auto mt-20 px-8 overflow-x-hidden">
       <h1 className="uppercase text-4xl text-center font-bold">
         About <span className="text-red-800">Me</span>
       </h1>
