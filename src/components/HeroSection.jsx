@@ -6,16 +6,16 @@ import { socialMediaIcons } from "@/data/data";
 import { motion } from "framer-motion";
 const HeroSection = () => {
   return (
-    <div className="w-full bg-[#ffffff] mx-auto flex flex-col md:flex-row  items-center gap-44">
+    <div className="w-full bg-[#ffffff] mx-auto flex flex-col md:flex-row items-center gap-52 md:gap-44">
       <div className="container bg-[#e6dace] h-[30vh] md:h-[70vh] relative  ">
         <motion.div
          initial={{opacity:0,y:-50}}
          whileInView={{opacity:1,y:0}}
          viewport={{once:false}}
          transition={{duration:0.8, delay:0.3}}
-          className=" absolute w-1/2 md:w-1/2 md:top-1/2 h-fit md:left-full 
+          className=" absolute w-3/4 md:w-1/2 md:top-1/2 h-fit md:left-full 
         -translate-x-1/2 md:-translate-y-1/2 left-1/2 bottom-0 translate-y-1/2
-          space-y-6  text-center bg-[#e6dace] shadow-[0_2px_16px_0_rgba(0,0,0,0.55)]"
+          space-y-6  text-center bg-[#e6dace] shadow-[0_2px_16px_0_rgba(0,0,0,0.55)] "
         >
           <h2 className="text-red-800 text-4xl font-bold tracking-wider mt-10">
             Hello!!!
@@ -24,7 +24,7 @@ const HeroSection = () => {
           <h1 className="text-black/70 text-3xl">Leema George</h1>
           <h3 className="text-black/70 text-xl">Web Developer</h3>
 
-          <div className="bg-white flex items-center  justify-between gap-6 py-1">
+          <div className="bg-white flex items-center  justify-center gap-10 py-1">
             {socialMediaIcons.map((item) => (
               <Link href={item.url} key={item.name} target="_blank">
                 <Image
