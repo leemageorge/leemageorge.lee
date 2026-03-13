@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import starc from "../../assets/starc.webp";
 import guru from "../../assets/gurupavanapuram.webp";
+import mtechlab from "../../assets/mtechlab.webp"
 import antz from "../../assets/antz.png"
 import {motion} from "framer-motion"
 const Projects = () => {
@@ -28,6 +29,13 @@ const Projects = () => {
       image: antz,
       live: "under processing",
       description:"Worked as a Frontend Developer in developing a Smart Digital Card web application using Vite and React.js. Transformed UI designs into responsive and interactive web interfaces. Built dynamic components for contact information, social media integration, and business details. Focused on optimized performance, clean code structure, SEO best practices, and cross-browser support."
+    },
+         {
+      id: "4",
+      title: "Mtechlab – Smart - Company Website",
+      image: mtechlab,
+      live: "https://mtech-lab.netlify.app/",
+      description:"Designed and developed a modern SaaS-style company website for MTechLab using Vite, React.js, and Tailwind CSS, delivering a fully responsive and performance-optimized interface. Enhanced user engagement through interactive UI elements such as a custom cursor, animated text, and letter-level animations, creating a clean, dynamic, and modern user experience across devices."
     },
   ];
 
