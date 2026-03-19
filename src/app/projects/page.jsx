@@ -6,6 +6,7 @@ import guru from "../../assets/gurupavanapuram.webp";
 import mtechlab from "../../assets/mtechlab.webp"
 import antz from "../../assets/antz.png"
 import {motion} from "framer-motion"
+import Link from "next/link";
 const Projects = () => {
   const projects = [
     {
@@ -65,7 +66,9 @@ const Projects = () => {
                     {project.title}
                 </h2>
              <p className=" mt-2 text-black/70 leading-7 text-md">{project.description}</p>
-             <button className="text-red-800 font-bold text-lg">Live: <span className="text-blue-800 cursor-pointer underline">{project.live}</span> </button>
+              <Link href={project.live} target="_blank">
+                  <button className="text-red-800 font-bold text-lg">Live: <span className="text-blue-800 cursor-pointer underline">{project.live}</span> </button>
+              </Link>
               </motion.div>
              
             </motion.div>
